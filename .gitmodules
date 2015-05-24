@@ -1,0 +1,6 @@
+[submodule "lib/famous-engine"]
+	path = lib/famous-engine
+	url = https://github.com/famous/engine
+[submodule "lib/famous"]
+	path = lib/famous
+	url = https://github.com/famous/engine
