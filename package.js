@@ -1,12 +1,12 @@
 Package.describe({
   name: 'gadicohen:famous',
-  version: '0.5.2',
-  summary: 'Temporary package for Famo.us Mixed Mode v0.5.0',
+  version: '0.6.0-rc.0',
+  summary: 'v0.6.0 is actually an rc release!',
   git: 'https://github.com/gadicc/meteor-famous',
 });
 
 Package.onUse(function(api) {
-  api.use('gadicohen:modules@0.0.5', 'client');
+  api.use('gadicohen:modules@0.1.0', 'client');
   api.addFiles('lib/modules.require', 'client');
   api.export('famous', 'client');
 });
