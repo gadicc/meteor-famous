@@ -1,7 +1,7 @@
 Package.describe({
   name: 'gadicohen:famous',
-  version: '0.6.0-rc.0',
-  summary: 'v0.6.0 is actually an rc release!',
+  version: '0.6.2',
+  summary: 'Temp package for Famo.us "Mixed Mode" Engine',
   git: 'https://github.com/gadicc/meteor-famous',
 });
 
