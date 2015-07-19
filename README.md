@@ -27,3 +27,9 @@ Now you can symlink to that directory from any app's packages folder, and Meteor
 
 If you ever need a specific commit, just go into `meteor-famous/lib/famous` and
 `git checkout <commit-sha>`.
+
+Note, when building the package, you'll get some errors about glsify not being
+found.  As long as glslify is installed globally, you can safely ignore that.
+It's because of the `require('glsify')`, and the glsify compilation stuff
+happens elsewhere in the tool chain.  I should just have it not output an error
+for glslify, didn't realize so many people were using this :)
